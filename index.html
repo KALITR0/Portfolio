@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+</head>
+
+<body>
+
+  <head>
+    <nav>
+      <div class="navright">
+        <h1>Portfolio.</h1>
+      </div>
+      <div class="navleft">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Skill</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </head>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        <p>hello</p>
+        <div>My Name is <span class="textcolor"> Vishal Mahato</span></div>
+        <div>and I am <span id="element"></span></div>
+      </div>
+      <div class="rightsection">
+        <img src="main.png" alt="">
+      </div>
+    </section>
+
+  </main>
+
+  <!------------------about--------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="th.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quis id neque quibusdam asperiores ipsam
+            fugiat temporibus culpa in dolores, molestias beatae reprehenderit nisi at ex dolore doloremque, sint eos?
+          </P>
+
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+              <li><span>Web Devlopment</span><br>Web app Devlopment</li>
+              <li><span>App Devlopment</span><br>Building Android/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+              <li><span>Web Devlopment</span><br>Web app Devlopment</li>
+              <li><span>App Devlopment</span><br>Building Android/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+              <li><span>Web Devlopment</span><br>Web app Devlopment</li>
+              <li><span>App Devlopment</span><br>Building Android/iOS apps</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!------------------project--------------->
+
+<div id="project">
+    <div class="container">
+      <h2 class="part2">My Work</h2>
+      <div class="work-list">
+        <div class="work">
+          <img src="todo.png">
+          <div class="layer">
+            <h3>To Do List</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quibusdam nihil eos dicta labore soluta autem fuga velit? Placeat dolores laborum, reiciendis officiis omnis rerum autem similique eligendi illum amet?</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="tic.png">
+          <div class="layer">
+            <h3>TIC TAC TOE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quibusdam nihil eos dicta labore soluta autem fuga velit? Placeat dolores laborum, reiciendis officiis omnis rerum autem similique eligendi illum amet?</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="cal.png">
+          <div class="layer">
+            <h3>Calculater</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quibusdam nihil eos dicta labore soluta autem fuga velit? Placeat dolores laborum, reiciendis officiis omnis rerum autem similique eligendi illum amet?</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!----------------contact------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h2 class="part2">Contact Me</h2>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+        <div class="social-icons">
+          <a href="https//facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Devloper', 'App Devloper'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
